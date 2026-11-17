@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Outer Shield Bevel Border (Silver White) -->
+    <path
+        android:fillColor="#F0F4F0"
+        android:pathData="M48,8 L76,18 L76,46 C76,64 64,79 48,88 C32,79 20,64 20,46 L20,18 Z" />
+
+    <!-- Inner Shield Cavity (Dark Contrast) -->
+    <path
+        android:fillColor="#0E1710"
+        android:pathData="M48,13 L72,21.5 L72,45 C72,61 62,74 48,82 C34,74 24,61 24,45 L24,21.5 Z" />
+
+    <!-- Stylized Futuristic 'S' Monogram (Pure White & Light Silver) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,22 L65,30 L65,40 L53,40 L53,35 L43,30 L35,34 L35,46 L58,54 L58,68 L48,74 L31,65 L31,55 L43,55 L43,61 L51,65 L58,62 L58,51 L35,43 L35,30 Z" />
+
+    <!-- Center Keyhole Icon (Black / Contrast) inside the 'S' core -->
+    <!-- Keyhole Circle -->
+    <path
+        android:fillColor="#0E1710"
+        android:pathData="M48,45 A3.5,3.5 0 1 0 48,38 A3.5,3.5 0 1 0 48,45 Z" />
+    <!-- Keyhole Stem -->
+    <path
+        android:fillColor="#0E1710"
+        android:pathData="M46.5,43 L49.5,43 L51,49.5 L45,49.5 Z" />
+
+    <!-- Digital Circuit Trace - Left Side -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A6E673"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M29,38 L25,38 L25,58 L30,62" />
+    <path
+        android:fillColor="#A6E673"
+        android:pathData="M29,38 A1.5,1.5 0 1 0 29,35 A1.5,1.5 0 1 0 29,38 Z" />
+
+    <!-- Digital Circuit Trace - Right Side -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A6E673"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M67,52 L71,52 L71,36 L66,32" />
+    <path
+        android:fillColor="#A6E673"
+        android:pathData="M67,52 A1.5,1.5 0 1 0 67,49 A1.5,1.5 0 1 0 67,52 Z" />
+
+    <!-- Top Right Cyber Pixel Particles -->
+    <path
+        android:fillColor="#D8F2C2"
+        android:pathData="M68,14 h3 v3 h-3 z M74,10 h3 v3 h-3 z M74,17 h3 v3 h-3 z M80,13 h3 v3 h-3 z" />
+
+    <!-- Bottom Shield Anchor Node -->
+    <path
+        android:fillColor="#A6E673"
+        android:pathData="M48,82 L48,76"
+        android:strokeColor="#A6E673"
+        android:strokeWidth="1.5" />
+    <path
+        android:fillColor="#A6E673"
+        android:pathData="M48,76 A1.5,1.5 0 1 0 48,73 A1.5,1.5 0 1 0 48,76 Z" />
+</vector>
